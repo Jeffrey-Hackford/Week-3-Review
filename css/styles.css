@@ -17,5 +17,10 @@ h1 {
 }
 
 form {
-  margin-top: 5em;
+  margin-top: 1em;
+}
+
+p {
+  text-align: center;
+  color: white;
 }

@@ -1,4 +1,4 @@
-
+// Start User Logic
  function ping(input) {
   for (var index = 1, userNumber = input; index <= userNumber; index += 1) {
     if (index % 15 === 0) {
@@ -14,16 +14,20 @@
     }
   }
 }
+// End User Logic
+
+// Start Business Logic
   $(document).ready(function() {
     $("#button").click(function(event) {
       var newNumber = $("#userInput").val();
       ping(newNumber);
+
       event.preventDefault();
     });
   });
-
+  
+// Dummy click function to activate default behavior
   $(document).ready(function() {
-    $("reset").click(function(){
-
+    $("reset").click(function() {
     });
   });
