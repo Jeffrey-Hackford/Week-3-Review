@@ -21,3 +21,9 @@
       event.preventDefault();
     });
   });
+
+  $(document).ready(function() {
+    $("reset").click(function(){
+
+    });
+  });
